@@ -5,7 +5,9 @@
 ## Tarefas SENAI
 
 * [SOP](tarefas-senai/quickstart/README.md)
-  * [Configurando Windows Pro em Máquinas VM](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm.md)
+  * [Configurando Windows Pro em Máquinas VM](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm/README.md)
+    * [1 Chamando botão novo() do VirtualBox](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm.md)
+    * [Page 1](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm/page-1.md)
 * [Publish your docs](tarefas-senai/publish-your-docs.md)
 
 ## Basics
