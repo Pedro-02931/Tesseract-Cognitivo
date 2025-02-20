@@ -10,6 +10,7 @@
     * [2. Expandindo ISO e Definição de Heurísticas](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm/page-1.md)
     * [3 Configurações](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm/3-configuracoes/README.md)
       * [Estrutura de Diretórios](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm/3-configuracoes/estrutura-de-diretorios.md)
+      * [Criando usuários locais](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm/3-configuracoes/criando-usuarios-locais.md)
 * [Untitled](tarefas-senai/publish-your-docs.md)
 
 ## Basics
