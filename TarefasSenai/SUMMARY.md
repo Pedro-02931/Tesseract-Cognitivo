@@ -7,8 +7,10 @@
 * [SOP](tarefas-senai/quickstart/README.md)
   * [Configurando Windows Pro em Máquinas VM](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm/README.md)
     * [1 Chamando botão novo() do VirtualBox](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm.md)
-    * [Page 1](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm/page-1.md)
-* [Publish your docs](tarefas-senai/publish-your-docs.md)
+    * [2. Expandindo ISO e Definição de Heurísticas](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm/page-1.md)
+    * [3 Configurações](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm/3-configuracoes/README.md)
+      * [Estrutura de Diretórios](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm/3-configuracoes/estrutura-de-diretorios.md)
+* [Untitled](tarefas-senai/publish-your-docs.md)
 
 ## Basics
 

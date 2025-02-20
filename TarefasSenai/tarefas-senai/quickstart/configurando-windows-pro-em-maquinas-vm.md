@@ -4,15 +4,15 @@ description: >-
   socia, que saco kkkkk
 ---
 
-# Configurando Windows Pro em Máquinas VM
-
-## Inicio
-
-Bom, vou tentar mapear as estruturas semanticas de significado das tela, em que atravez de um LLM, vou gerando o conhecimento tecnico ~~(também não consigo fazer nada pequeno kkk)~~
-
-***
+# 1 Chamando botão novo() do VirtualBox
 
 ## 1 Chamando botão novo() do VirtualBox
+
+{% embed url="https://drive.google.com/file/d/1UP1XD_PKzos3aT0P5PTysVb9VbF6nDSc/view?usp=sharing" %}
+Video de Criação
+{% endembed %}
+
+
 
 Usei o VirtualBox para criar minha nova máquina virtual com as configurações:
 
