@@ -1,0 +1,40 @@
+
+<!DOCTYPE html> <!--Aparentemente essa parte define a versão, mas não sei como os bots e o navegador ve isso -->
+<html lang="en"> <!-- Essa parte é mais usada para acessibilidade -->
+<head> <!-- carreaga configuraoes como metadados e onde os binarios de intruões estão-->
+
+    <!-- metadados -->
+        <meta charset="UTF-8"> <!-- DEfine padrões de caracteres, mas acho que essa instruçãoo de que tipo de caracteres o motor do navegador tem que usar e renderizar. Acho que é um binário no kernel que é chamado. ou é uma livraria do proprio navegador? -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define o padrão e o tipo de displei e como sera mostrada (Quero que explique a nivel de baixo nivel e syscalls-->
+    <!-- referencias -->    
+        <link rel="stylesheet" href="./styles.css"> <!-- Link para o arquivo css (Quero que explique como o navegador renderiza esse binario) -->
+    <title>Document</title>
+</head>
+<body> <!-- Define o que é cada coisa para o motor do navegador e os bots entenderem a pagina. A formataão é feita no binário css (Explique como as instruões binária renderizam a pagina chamando o processador e gpu e como é encapsulado) -->
+    <h1>Senai<h1>
+        <h2>Aulas de programação</h2>
+            <a href="https://www.senai.br/">Link para o Senai</a> <!-- Link para outra página -->
+            <ul> <!-- Lista não ordenada -->
+                <li>HTML</li> <!-- Elemento de lista -->
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/SENAI_São_Paulo_logo.png/1600px-SENAI_São_Paulo_logo.png" alt="Logo do Senai"> <!-- Imagem  (quero que explique como o navegador calcula os pixels das imagens. no caso, são instruções binárias)-->
+            <table> <!-- Tabela (Explique como os bots pontuam cada uma dessas tags)-->
+                <tr> <!-- Linha -->
+                    <th>Coluna 1</th> <!-- Cabeçalho -->
+                    <th>Coluna 2</th>
+                </tr>
+                <tr> <!-- Linha -->
+                    <td>Item 1</td> <!-- Conteúdo -->
+                    <td>Item 2</td>
+                </tr>
+                <tr> <!-- Linha -->
+                    <td>Item 3</td> <!-- Conteúdo -->
+                    <td>Item 4</td>
+                </tr>
+            </table>
+
+
+</body>
+</html>

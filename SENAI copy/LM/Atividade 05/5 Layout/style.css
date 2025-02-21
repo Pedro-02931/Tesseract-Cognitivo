@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex; /* Layout flexível horizontalmente */
+    height: 100vh; /* Ocupar toda a altura da viewport */
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;    
+}
+
+
+nav {
+    background-color: #D8BFD8; /* Lavanda */
+    width: 5.63vw; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 🔥 Container Principal (Header, Main, Footer empilhados) */
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 94.37vw; /* Ajustado para bater 100vw com o NAV */
+    height: 100vh; /* Ocupar toda a altura */
+}
+
+/* 🔥 Header, Main e Footer - Organizados verticalmente */
+header, main, footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+/* 🔥 Header */
+header {
+    background-color: #F25C54; /* Vermelho-alaranjado */
+    height: 16vh; /* Exatamente conforme cálculo anterior */
+}
+
+/* 🔥 Main (Maior Seção, Cresce Automaticamente) */
+main {
+    background-color: #1ABC9C; /* Azul Petróleo */
+    flex-grow: 1; /* Ocupa todo o espaço restante */
+}
+
+/* 🔥 Footer */
+footer {
+    background-color: #8E44AD; /* Roxo Intenso */
+    height: 16vh; /* Exatamente conforme cálculo anterior */
+}

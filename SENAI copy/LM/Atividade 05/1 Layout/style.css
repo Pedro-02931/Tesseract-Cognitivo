@@ -1,0 +1,47 @@
+
+/*
+Dado que basicamente há três quadros, todos empilhados na vertical, bodemos usar o body como container, sem necessáriamente especificar tags, para a facilitação na representação semantica, dividindo potenciades semanticas para um cruzamento de embbendings semanticos
+
+Dado que algumas coisas se repetem, basta configurar para a reedução do arquivo
+*/
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font: bold 32px arial, sans-serif;
+    text-align: center;        
+}
+
+
+/*
+Os quadros são divididos em 3 blocos horizontais justificados
+*/
+header, main, footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*
+o header e footer tem mesmo tamanho, ocupando 2/3 e a mesma cor
+*/
+header, footer {
+    height: 16.66vh;
+}
+
+header {
+    background-color: #FF6347;
+}
+
+footer {
+    background-color: #4C00b0;
+}
+
+/*
+Centralizado entre os dois e o flex 1 significa que o bloco cresce no espao restante
+*/
+main{
+    background-color: #98FB98;
+    flex: 1;
+}

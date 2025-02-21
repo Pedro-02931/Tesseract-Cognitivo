@@ -1,0 +1,156 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: tomato;
+    height: 100vh;
+}
+
+main {
+    background-color: purple;
+}
+
+footer {
+    background-color: pink;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+}
+
+/* 
+
+- A identação é importante no CSS?
+  - Sim, melhora a legibilidade do código e ajuda na organização das seções.
+
+- Ela afeta na renderização?
+  - Sim, pode impactar o layout e a estrutura do documento HTML.
+
+- Por que o reset (*) é importante?
+  - Ele uniformiza estilos padrão dos navegadores, garantindo consistência.
+
+- Como ele afeta a renderização do motor?
+  - Ele redefine margens, paddings e outros estilos, alterando o cálculo de layout.
+
+- O reset melhora o desempenho?
+  - Depende do site e do navegador. Pode evitar inconsistências, mas não sempre melhora performance.
+
+---
+
+- Como o display afeta a largura e altura dos elementos?
+  - Elementos `block` ocupam toda a largura do pai e ajustam a altura conforme o conteúdo.
+  - Elementos `inline` ocupam apenas o espaço necessário sem afetar altura.
+
+- Como otimizar `display` matematicamente?
+  - Usando `Flexbox` ou `CSS Grid` para distribuir elementos de forma eficiente.
+
+---
+
+- Como propriedades CSS são processadas pelo motor do navegador?
+  - Elas são traduzidas em cálculos matriciais e renderizadas pelo navegador.
+
+- Como `vh` é calculado? Ele é processado na GPU ou CPU?
+  - `vh` representa 1% da altura do viewport e pode ser processado tanto na GPU quanto na CPU, dependendo do navegador.
+
+- O `flex` é calculado a nível binário?
+  - Sim, o motor do navegador converte o `flex` em instruções binárias para distribuir os elementos.
+
+- Como `gap` funciona no motor do navegador?
+  - Ele cria espaçamento entre elementos `flex` sem necessidade de margens individuais.
+
+- Como `flex-direction` opera no nível binário?
+  - Ele define a orientação dos elementos `flex`, alterando a matriz de layout.
+
+---
+
+- Como a ordem de `pai` e `filho` afeta a renderização?
+  - O pai é processado primeiro, influenciando a posição e o fluxo dos filhos.
+
+- Por que elementos dependentes do pai melhoram o desempenho?
+  - Reduzem recálculos de layout, otimizando a renderização.
+
+- Como `height` e `width` afetam a renderização e o processamento de imagem?
+  - Eles determinam a área de exibição e influenciam cálculos de redimensionamento.
+
+- Como `flex-grow` é processado no motor do navegador?
+  - Ele ajusta a distribuição do espaço disponível entre elementos `flex`.
+
+---
+
+- Como animações em CSS e JS são renderizadas?
+  - Animações em `CSS` são otimizadas na GPU. Em `JS`, podem sobrecarregar a CPU.
+
+- Como cálculos matriciais são usados para animações?
+  - O navegador converte transformações (`scale`, `rotate`, etc.) em operações matriciais.
+
+---
+
+- O que são classes e IDs no CSS? Como são interpretados?
+  - Classes (`.`) aplicam estilos a múltiplos elementos, IDs (`#`) são únicos.
+  - O navegador os processa de forma hierárquica e otimiza a aplicação de estilos.
+
+- Como `text-align` realiza cálculos matemáticos?
+  - Ele ajusta o posicionamento do texto dentro do elemento pai.
+
+- O que é viewport e como ele é processado?
+  - O viewport é a área visível do navegador. Seus cálculos afetam a renderização de layouts responsivos.
+
+---
+
+- Como o navegador calcula cores para renderização de pixels?
+  - Ele usa modelos matemáticos (como RGB e HSL), processados pela GPU.
+
+- O que são shaders? Como são usados na renderização?
+  - São pequenos programas que processam gráficos, aplicando efeitos visuais e manipulação de cores.
+
+---
+
+- Como `transform` executa cálculos matemáticos?
+  - Ele aplica transformações geométricas via operações matriciais, geralmente processadas na GPU.
+
+- Como funciona a hierarquia de estilos no CSS?
+  - O navegador segue uma ordem de prioridade: estilos inline > `!important` > seletores específicos.
+
+- Como `justify-content` e `align-items` são processados?
+  - `justify-content` alinha itens horizontalmente, `align-items`, verticalmente, ambos influenciando a distribuição de espaço.
+
+- Como `grid` é processado pelo navegador?
+  - Ele cria uma estrutura matricial para organizar os elementos.
+
+---
+
+- Como `flex-wrap` e `gap` interagem?
+  - `flex-wrap` controla a quebra de elementos `flex`, enquanto `gap` define o espaçamento entre eles.
+
+- Como `space-between` é processado no motor de renderização?
+  - Distribui espaço igual entre elementos `flex`, alterando seu posicionamento.
+
+---
+
+- O CSS roda sobre C?
+  - Sim, os navegadores interpretam CSS através de motores escritos em C++.
+
+- Como a hierarquia funciona quando uso múltiplas classes?
+  - Classes mais específicas têm prioridade sobre classes genéricas.
+
+---
+
+- Como `object-fit: cover` funciona?
+  - Redimensiona imagens para preencher o contêiner, mantendo a proporção.
+
+- Como estados como `:hover` funcionam?
+  - São pseudo-classes que aplicam estilos dinâmicos a elementos.
+
+---
+
+- Como `overflow: hidden` afeta a renderização?
+  - Esconde conteúdos que ultrapassam os limites do contêiner.
+
+- Como `transition` funciona no motor do navegador?
+  - Cria uma animação suave entre mudanças de estilo, geralmente processada na GPU.
+
+*/

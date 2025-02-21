@@ -1,0 +1,70 @@
+
+/*
+padronização
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font: bold 32px arial, sans-serif;
+    text-align: center;        
+}
+
+
+/*
+# Tamanhos:
+
+Header e footer blocos horizontais justificados ocupam 1/6 da altura
+*/
+header, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 16.66vh;
+}
+
+/* main ocupa o vh restante centralizado, funcionando como container */
+
+main {
+    flex-grow: 1; 
+    display: grid; 
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+/* Nav e Aside tem medidas iguais*/
+nav, aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Definição de cores e do article*/
+article {
+    background-color: #98FB98; /* Verde claro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    background-color: #F5DEB3; /* Bege */
+}
+
+nav {
+    background-color: #D8BFD8; /* Roxo claro */
+}
+
+header {
+    background-color: #FF6347;
+}
+
+footer {
+    background-color: #4C00b0;
+}

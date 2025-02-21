@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Galeria</title>
+</head>
+<body>
+    <header></header>
+    <main>
+        <div class="container">
+
+            <a href="https://aoquadra.do/2012/02/11/homunculus-vol-15/">
+                <img src="./img/Look_at_Mee.png" alt="Imagem 1">
+            </a>
+            <!--... -->
+        </div>
+    </main>
+    <footer></footer>
+    <!--Dentro do body se cria n tags semantivas, que formam o conteudo, o professor exemplificou 
+        - <header> 
+        - <main>
+        - <footer>
+        - <div>
+        - <side>
+        Aparentemente cada tag semantica simboliza onde e o que cada coisa estta, em que posso ter multiplos div, header, footer, porém só um main por pagina
+
+        - Como isso afeta os scrawler e a renderização do navegador?
+        - Scrappers e renderizadores podem diferenciar tags semanticas para fazer a extração de dados de diferentes partes da página, facilitando a navegação e a extração de dados.
+
+        - Como as semanticas funcionam a nível binário?
+        - Semanticas não são binárias, elas podem ser usadas para definir a estrutura do documento, como por exemplo, header, main, footer, section, article, etc.
+
+        - Quando usar semanticas em vez de tags simples?
+        - Semanticas podem ser mais específicas e mais legíveis, facilitando a navegação e a facilidade de acessar determinadas partes da página. Por exemplo, se eu quiser mostrar uma seção de conteúdo específico, não preciso usar um div simples, mas uma tag semanticamente mais especifica, como section.
+
+        - Como isso afeta no meu desenvolvimento e hanckeamento a nivel teoria de jogos?
+        - Semanticas podem ser usadas para estruturar a página, facilitando a navegação e acessar determinadas partes da página. Por exemplo, se eu quiser mostrar um cabeçalho de uma seção de conteúdo específico, não preciso usar um div simples, mas uma tag semanticamente mais especifica, como header. Acho que quanto mais organizado, melhor o meu hankeamento.
+
+        - Usar tabelas para organização é um péssimo hábito?
+        - Sim, usar tabelas para organizar dados é um péssimo hábito. As tabelas não são adequadas para estruturar a página, como por exemplo, para mostrar uma lista de conteúdo ou para organizar dados.
+
+        - Qual o equivalente para evitar? conteiners?
+        - Sim, containers podem ser usados para organizar a estrutura do documento, mas não são adequadas para estruturar a página, como por exemplo, para mostrar uma lista de conteúdo ou para organizar dados.
+
+        - Devo colocar o css antes do HTML? O professor falou que depende, mas estou em duvida sobre otimização
+        - No HTML, você pode colocar o CSS antes ou depois do HTML. Se você colocar o CSS antes do HTML, o navegador não precisa carregar o CSS antes de começar a renderizar o HTML, o que pode ser mais rápido. Se você colocar o CSS depois do HTML, o navegador precisa carregar o CSS antes de começar a renderizar o HTML, o que pode ser mais
+        
+        posso ter multiplos header de cada seção
+        
+        Por que caminho relativo é importante?
+        - Caminho relativo é importante para evitar problemas com URLs e permitir que o seu site seja facilmente compartilhado com outros sites. Por exemplo, se você colocar uma imagem dentro de um link, você não precisa usar o caminho absoluto, pois o caminho relativo irá funcionar para qualquer site que possa acessar o seu site. Além disso, pode haver incompatibilidade, dado o filesystem, estrutura DAG do servidor, etc. O caminho relativo é importante. O ponto é uma aresta que aponta para própria pasta.
+
+        para que serve o span e por considerar cada tag semantica? Qual a importancia?
+        - O span é um elemento não semântico, que serve para envolver um trecho de texto ou um elemento de conteúdo que não possui um significado próprio. Ele não define um novo nível de hierarquia ou não possui um significado relacionado à estrutura do documento.
+
+        quando usar uma div e como ela afeta no meu hanckeamento a nivel teoria de jogos sobre competição entre ranks em site?
+        - Uma div pode ser usada para envolver um trecho de texto ou um elemento de conteúdo que não possui um significado próprio. Ela não define um novo nível de hierarquia ou não possui um significado relacionado à estrutura do documento. Ao usar uma div, você não ganha nenhum benefício em termos de competição entre ranks em um site, pois a div não é uma tag semantica
+
+        - Como usar um span e como ela afeta no meu hanckeamento a nivel teoria de jogos sobre competição entre ranks em site?
+        - Um span pode ser usada para envolver um trecho de texto ou um elemento de conteúdo que não possui um significado próprio. Ele não define um novo nível de hierarquia ou não possui um significado relacionado à estrutura do documento. Ao usar um span, você não ganha nenhum benefício em termos de competição entre ranks em um site, pois o span não é uma tag semantica.
+
+        o que é uma class e como ela afeta na renderização de um site e no ranckeamento? e como o navegador e seu motor utiliza essa propriedade?
+        - Uma class é um nome que você atribui a um grupo de elementos HTML com a mesma estrutura ou comportamento. Você pode aplicar uma class a vários elementos HTML com a mesma estrutura ou comportamento. Ao usar uma class, você não precisa repetir o mesmo código para cada elemento HTML. Ao aplicar uma class a um elemento HTML, o motor do navegador irá aplicar as regras de estilo.
+        
+        O que é um atributo dentro do CSS e como ele afeta a renderização pelo motor do navegador?
+        - Um atributo dentro do CSS é um valor associado a uma regra de estilo, que é aplicado a um elemento HTML. Ele é escrito em chaves, como por exemplo, "color: red;". Um atributo dentro do CSS pode afetar a renderização do motor do navegador, como por exemplo, alterar a cor do texto, definir a fonte, etc.
+
+        Como o id funciona dentro do navegador e pela renderização do motor?
+        - O id é um nome único que você atribui a um elemento HTML. Uma id não pode ser repetida em um documento HTML. O id é escrito em chaves, como por exemplo, "id='main'". Um id pode afetar a renderização do motor do navegador, como por exemplo, alterar a cor do texto, definir a fonte, etc. Ao usar um id, o motor do navegador irá criar uma categoria para identificação?
+
+        O que são propriedades dentro do html?
+        - Uma propriedade dentro do HTML é um nome associado a um valor que é aplicado a um elemento HTML. Ele é escrito em chaves, como por exemplo, "style='color: red;'". Uma propriedade dentro do HTML pode afetar a renderização do motor do navegador, como por exemplo, alterar a cor do texto, definir a fonte, etc. Ao usar uma propriedade dentro do HTML, o motor do
+
+        Por que o footer é importante? é para ranckeamento ou legibilidade?
+        - O footer é um elemento não semântico que serve para envolver o rodapé da página. Ele não define um novo nível de hierarquia ou não possui um significado relacionado à estrutura do documento. O footer é importante para ranckeamento, pois ele não é visível para o usuário e não afeta a visualização do site. Ao usar o footer, você não ganha nenhum benefíc
+
+        O que é um iframe e como ele afeta no meu site?
+        - Um iframe é um elemento HTML que permite incorporar outro documento HTML dentro do documento atual. O iframe não é visível para o usuário, e ele não afeta a visualização do site. O iframe é importante para incorporar conteúdo externo, como por exemplo, uma lista de links, um mapa, etc. Ao usar um iframe, você não ganha nenhum benefício em termos de ranckeamento ou legibilidade
+
+        Como a tag de imagem renderiza os pixels matriciais de uma imagem alocada num bloco de armazenamento?
+        - A tag de imagem renderiza os pixels matriciais de uma imagem alocada num bloco de armazenamento usando a técnica de "rasterização". A rasterização é um método de renderizar imagens em tela, transformando pixels de uma imagem no bloco de armazenamento para pixels na tela. Ao usar a tag de imagem, o motor do navegador irá carregar a imagem do bloco de armazenamento, transformar
+
+        Qual o tipo de grafo usado dentro do html e css?
+        - Um grafo é um estrutura de dados que representa um relacionamento entre elementos. Uma estrutura de dados de grafo pode ser usada dentro do HTML e CSS para representar uma estrutura de árvore, uma árvore binária, um grafo não direcionado, um grafo direcionado, um grafo com pesos, etc. Ao usar um grafo dentro do HTML e
+
+        Um dag pode ser usado para representar o esqueleto semantico?
+        - Um DAG (Directed Acyclic Graph) é um grafo não direcionado que não possui ciclos. Uma estrutura de dados de DAG pode ser usada dentro do HTML e CSS para representar o esqueleto semântico de um documento, como por exemplo, uma lista de links, um menu, uma caixa de seleção, etc. Ao usar um DAG dentro do HTML e CSS, você não ganha
+
+        
+        -->
+
+</body>
+</html>

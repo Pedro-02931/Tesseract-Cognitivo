@@ -1,0 +1,79 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configuração geral da página */
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Header e Footer */
+header, footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Container principal */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 3fr 1fr;
+    gap: 10px;
+    flex-grow: 1;
+    padding: 10px;
+}
+
+/* Blocos vermelhos */
+.box {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black; /* Margem preta entre os blocos */
+}
+
+/* Primeiro container (1/4 largura, altura total) */
+.primeira {
+    grid-row: 1 / span 2;
+    grid-column: 1;
+}
+
+/* Segundo container (3/4 largura, três blocos em linha horizontal) */
+.segunda {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column: 2;
+    gap: 10px;
+}
+
+/* Bloco grande (vale por duas pequenas na horizontal) */
+.grande {
+    grid-column: 1;
+}
+
+/* Blocos pequenos ao lado */
+.pequena {
+    grid-column: span 1;
+}
+
+/* Terceiro container (igual ao segundo, mas vertical) */
+.terceira {
+    display: grid;
+    grid-template-rows: 2fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-column: 2;
+    grid-row: 1;
+    gap: 10px;
+}

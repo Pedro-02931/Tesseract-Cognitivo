@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} /* define configuraão global (Aparentemente o robo de rank do google não precisa renderizar, então para reduzir o peso computacional, ele carrega só o binario do html, o de estilização é a parte para só o navegador, por isso não é uma boa pratica estilizar direto no html pois pesaria o binario .html) */
+
+ul, ol, li {
+    list-style: none;
+}
+
+
+a {
+    text-decoration: none; /* como o computador aplica estilos aos links a nivel de instruções binários? */
+    color: blue; 
+}
+body {
+    padding: 16px; /* posso imaginar uma matriz com duas dimensões de numeros inteiros, em que a matriz é renderizada no monitos, por isso GPU calcula mais rápido, eu acho, pois só que cuidar de duas dimensões para o usuario, mas por dentro, que seria o codigo bruto, tenho que considerar n-dimenões, como custo, chamadas de sistema, renderização, mas para o usuario pensar apenas eixo x e y (quero que aprofunde pq é a primeira vez que penso nisso) no caso, o pixel seria uma unidade absoluta, e as relativas seriam calculos matematicos, tipo, o pixel seria tenho 1 metro, e a relativa seria a media de uma população*/
+}
+h1 {
+    color: red; /* como o computador calcula a cor do pixel? */
+    background-color: black;
+
+}
