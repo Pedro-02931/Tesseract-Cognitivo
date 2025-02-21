@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Galeria GRID</title>
+</head>
+<body>
+    <header>
+        <h1>FOTOS</h1>
+    </header>
+    <main>
+        <div class="galeria">
+            <div class="foto1"></div>
+            <div class="foto2"></div>
+            <div class="foto3"></div>
+            <div class="foto4"></div>
+            <div class="foto5"></div>
+            <div class="foto6"></div>
+            <div class="foto7"></div>
+            <div class="foto8"></div>
+        </div>
+    </main>
+    <footer>
+        <p class="dev">Copyright 2025 | Fernando Leonid</p>
+    </footer>
+</body>
+</html>

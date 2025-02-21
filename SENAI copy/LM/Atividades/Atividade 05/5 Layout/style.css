@@ -1,0 +1,139 @@
+/* 
+====================================
+  CONFIGURAÇÃO DE VARIÁVEIS GLOBAIS
+====================================
+*/
+:root {
+    /* Base de cálculo matricial para fonte */
+    --baseFontSize: 16px;
+    /* Fator de escala usado em cálculos matriciais de tamanho */
+    --scaleFactor: 1.25;
+    /* Ajuste de espaçamento padrão (usado nos margins e paddings) */
+    --spacingBase: 1rem;
+  }
+  
+  /* 
+  ====================================
+    RESET BÁSICO PRA NÃO FERRAR O ROLÊ
+  ====================================
+  */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* 
+  ====================================
+    BODY ESTRUTURAL
+  ====================================
+  */
+  body {
+    font-size: calc(var(--baseFontSize) * var(--scaleFactor));
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    font-family: sans-serif;
+    /* Transformação matricial inicial, só pra ostentar a loucura */
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* 
+  ====================================
+    CONTAINER PRINCIPAL 
+    (SE QUISER AGRUPAR TUDO DENTRO DE UMA DIV)
+  ====================================
+  */
+  .container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* 
+  ====================================
+    HEADER 
+  ====================================
+  */
+  header {
+    background-color: #ff5b4f; /* cor avermelhada estilo da imagem */
+    text-align: center;
+    padding: calc(var(--spacingBase) * 1.5);
+    font-weight: bold;
+    font-size: calc(var(--baseFontSize) * var(--scaleFactor) * 1.1);
+  }
+  
+  /* 
+  ====================================
+    ÁREA CENTRAL (NAV, ARTICLE, ASIDE)
+  ====================================
+  */
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* 
+  ====================================
+    NAV LATERAL ESQUERDA
+  ====================================
+  */
+  nav {
+    background-color: #c9b0d5; /* roxo claro */
+    flex: 0 0 15%;
+    padding: var(--spacingBase);
+    /* Transformada pra ficar estiloso */
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    font-size: calc(var(--baseFontSize) * 0.9);
+    overflow-y: auto;
+  }
+  
+  /* 
+  ====================================
+    ARTICLE (CONTEÚDO PRINCIPAL)
+  ====================================
+  */
+  article {
+    background-color: #a8eea2; /* verde claro */
+    flex: 1;
+    padding: calc(var(--spacingBase) * 2);
+    /* Ajuste de fonte matricial supremo */
+    font-size: calc(var(--baseFontSize) * var(--scaleFactor));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
+  
+  /* 
+  ====================================
+    ASIDE (COLUNA LATERAL DIREITA)
+  ====================================
+  */
+  aside {
+    background-color: #f7ddb5; /* bege claro */
+    flex: 0 0 20%;
+    padding: var(--spacingBase);
+    font-size: calc(var(--baseFontSize) * var(--scaleFactor) * 0.9);
+    /* Um matrixzinho só pra manter a vibe */
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  
+  /* 
+  ====================================
+    FOOTER
+  ====================================
+  */
+  footer {
+    background-color: #8242f5; /* roxo forte */
+    text-align: center;
+    padding: calc(var(--spacingBase) * 1.5);
+    font-weight: bold;
+    font-size: calc(var(--baseFontSize) * var(--scaleFactor) * 0.95);
+    color: #fff;
+  }
+  

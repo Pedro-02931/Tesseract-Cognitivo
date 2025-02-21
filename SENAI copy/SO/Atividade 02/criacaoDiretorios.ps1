@@ -57,7 +57,7 @@ function () {
         "Dados do usuario$u"       | Out-File -FilePath (Join-Path $dlDir "dados.txt") -Encoding UTF8
     }
 
-    # Exibindo a estrutura final dos diretórios
+
     Write-Host "Estrutura de diretórios criada com sucesso: " -ForegroundColor Green
     cmd /c "tree `"$BASE_DIR`" /F | more"
 }
