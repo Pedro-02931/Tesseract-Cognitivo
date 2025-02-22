@@ -29,5 +29,6 @@ function round4 {
 
 * No cálculo, ele executa a função `([math]::Round(x * 10000.0)) / 10000.0`, que basicamente multiplica por 10.000 para empurrar as casas decimais para frente e arredonda pro inteiro mais próximo e depois divide de volta para ter 4 dígitos após a virgula.
 * Removendo na mão o efeito borboleta para a escala de uso, elimina-se a deriva térmica e estabiliza os valores em modelos de alta performance, como aqueles processados em clusters HPC.
+* Lógico, tinha o jeito fácil de fazer com bibliotecas, mas sou preguiçoso, e para mim é mais reiventar a roda. Multiplica o valor por **10.000**, arredonda e divide de volta, garantindo **4 casas decimais** fixas.&#x20;
+* Essa abordagem evita que microvariações numéricas causem explosões de valor. É tipo segurar o volante firme numa estrada cheia de buracos: mantém o curso mesmo quando o terreno treme.
 
-Lógico, tinha o jeito fácol de fazer com bibliotecas, mas sou preguiçoso rsrsrs
