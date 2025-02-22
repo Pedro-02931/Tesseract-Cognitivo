@@ -26,6 +26,7 @@
     * [Modelo Híbrido de Performance Através de Modelos Matemáticos Avançados](tarefas-senai/publish-your-docs/medidas-performace-de-hardware/modelo-hibrido-de-performance-atraves-de-modelos-matematicos-avancados/README.md)
       * [2.1 Calcular-PontuacaoComponente()](tarefas-senai/publish-your-docs/medidas-performace-de-hardware/modelo-hibrido-de-performance-atraves-de-modelos-matematicos-avancados/2.1-calcular-pontuacaocomponente.md)
       * [2. 2 Seleção do peso](tarefas-senai/publish-your-docs/medidas-performace-de-hardware/modelo-hibrido-de-performance-atraves-de-modelos-matematicos-avancados/2.-2-selecao-do-peso.md)
+  * [Em destilação](tarefas-senai/publish-your-docs/em-destilacao.md)
 
 ## Basics
 
