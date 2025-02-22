@@ -20,7 +20,8 @@
         * [Estrutura de Diretórios](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm/criando-virtual-box/2-configuracoes/estrutura-de-diretorios.md)
         * [Criando usuários locais](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm/criando-virtual-box/2-configuracoes/criando-usuarios-locais.md)
 * [Otimização](tarefas-senai/otimizacao.md)
-* [Powershell](tarefas-senai/publish-your-docs.md)
+* [Aprendizado](tarefas-senai/publish-your-docs/README.md)
+  * [Medidas Performace de Hardware](tarefas-senai/publish-your-docs/medidas-performace-de-hardware.md)
 
 ## Basics
 

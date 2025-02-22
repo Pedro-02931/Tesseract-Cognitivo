@@ -1,5 +1,5 @@
 ---
-icon: bullseye-arrow
+icon: rectangle-history
 description: 1 Semestre
 ---
 
