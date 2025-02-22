@@ -23,6 +23,7 @@
 * [Aprendizado](tarefas-senai/publish-your-docs.md)
   * [Medidas Performace de Hardware](tarefas-senai/publish-your-docs/medidas-performace-de-hardware/README.md)
     * [Lidando com o Efeito Borboleta com Quantização Decimal de 4º Ordem](tarefas-senai/publish-your-docs/medidas-performace-de-hardware/lidando-com-o-efeito-borboleta-com-quantizacao-decimal-de-4o-ordem.md)
+    * [Modelo Híbrido de Performance Através de Modelos Matemáticos Avançados](tarefas-senai/publish-your-docs/medidas-performace-de-hardware/modelo-hibrido-de-performance-atraves-de-modelos-matematicos-avancados.md)
 
 ## Basics
 
