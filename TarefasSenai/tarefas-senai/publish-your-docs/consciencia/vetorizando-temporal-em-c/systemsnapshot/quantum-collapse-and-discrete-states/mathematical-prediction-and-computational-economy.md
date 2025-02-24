@@ -39,3 +39,16 @@ The **predictive capability** also translates into **mathematical efficiency**, 
 X^k+1=AX^k+Buk+wk\hat{X}\_{k+1} = A \hat{X}\_k + B u\_k + w\_k
 
 Where **X^k+1\hat{X}\_{k+1}** is the **predicted state**, **A** is the **state transition model**, **B** is the **control input model**, **u\_k** is the **control vector**, and **w\_k** is the **process noise**. By applying this **filter**, the system can **smooth out fluctuations**, **predict the next state**, and **allocate resources** before a **problem arises**, ensuring **maximum efficiency** with **minimum computational cost**.
+
+Instead, the system uses a **Markov chain approach**, where the next state depends only on the current state, enabling a **mathematical prediction** with minimal processing cost. The prediction equation can be expressed as:
+
+P(Xt+1∣Xt)=P(Xt)⋅T(Xt→Xt+1)P(X\_{t+1} \mid X\_t) = P(X\_t) \cdot T(X\_t \rightarrow X\_{t+1})
+
+Where **P(Xt+1∣Xt)P(X\_{t+1} \mid X\_t)** is the **probability** of the next state based on the current state, and **T(Xt→Xt+1)T(X\_t \rightarrow X\_{t+1})** is the **transition matrix** defining how states evolve. This approach shifts the computational load from **O(n²)** to **O(n)**, as the system only needs to calculate the immediate next state instead of simulating all possible paths.
+
+Mathematically, this is represented in the **energy cost function**:
+
+E=P⋅tE = P \cdot t
+
+Where **EE** is **energy consumption**, **PP** is **power usage**, and **tt** is **operation time**. By minimizing **PP** proactively, the system **reduces total energy costs**, always balancing on the edge between **maximum performance** and **absolute efficiency**.
+
