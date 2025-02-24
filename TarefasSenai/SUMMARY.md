@@ -4,6 +4,11 @@
 
 ## Tarefas SENAI
 
+* [LOP](tarefas-senai/lop/README.md)
+  * [Clinica App](tarefas-senai/lop/clinica-app/README.md)
+    * [model](tarefas-senai/lop/clinica-app/model/README.md)
+      * [Paciente.java](tarefas-senai/lop/clinica-app/model/paciente.java.md)
+    * [ClinicaApp.java](tarefas-senai/lop/clinica-app/clinicaapp.java.md)
 * [SOP](tarefas-senai/quickstart/README.md)
   * [Configurando Windows Pro em Máquinas VM](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm/README.md)
     * [A Estrutura Matricial de Diretórios Usando DAGs no PowerShell](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm/a-estrutura-matricial-de-diretorios-usando-dags-no-powershell/README.md)
@@ -20,14 +25,15 @@
         * [Estrutura de Diretórios](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm/criando-virtual-box/2-configuracoes/estrutura-de-diretorios.md)
         * [Criando usuários locais](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm/criando-virtual-box/2-configuracoes/criando-usuarios-locais.md)
 * [Otimização](tarefas-senai/otimizacao.md)
-* [Aprendizado](tarefas-senai/publish-your-docs.md)
-  * [Quantização](tarefas-senai/publish-your-docs/quantizacao/README.md)
-    * [Vetorizando Temporal em C](tarefas-senai/publish-your-docs/quantizacao/vetorizando-temporal-em-c/README.md)
-      * [Header](tarefas-senai/publish-your-docs/quantizacao/vetorizando-temporal-em-c/header/README.md)
-        * [Trecho do Código Cocumentado](tarefas-senai/publish-your-docs/quantizacao/vetorizando-temporal-em-c/header/trecho-do-codigo-cocumentado.md)
-    * [Prototipos](tarefas-senai/publish-your-docs/quantizacao/prototipos/README.md)
-      * [Poweshell](tarefas-senai/publish-your-docs/quantizacao/prototipos/poweshell.md)
-      * [C](tarefas-senai/publish-your-docs/quantizacao/prototipos/c.md)
+* [Quantização](tarefas-senai/publish-your-docs.md)
+  * [Consciencia](tarefas-senai/publish-your-docs/consciencia/README.md)
+    * [Vetorizando Temporal em C](tarefas-senai/publish-your-docs/consciencia/vetorizando-temporal-em-c/README.md)
+      * [Header](tarefas-senai/publish-your-docs/consciencia/vetorizando-temporal-em-c/header/README.md)
+        * [Trecho do Código Cocumentado](tarefas-senai/publish-your-docs/consciencia/vetorizando-temporal-em-c/header/trecho-do-codigo-cocumentado.md)
+    * [Prototipos](tarefas-senai/publish-your-docs/consciencia/prototipos/README.md)
+      * [Poweshell](tarefas-senai/publish-your-docs/consciencia/prototipos/poweshell.md)
+      * [C](tarefas-senai/publish-your-docs/consciencia/prototipos/c.md)
+* [Page 1](tarefas-senai/page-1.md)
 
 ## Basics
 
