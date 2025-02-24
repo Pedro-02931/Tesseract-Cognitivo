@@ -30,6 +30,7 @@
     * [Vetorizando Temporal em C](tarefas-senai/publish-your-docs/consciencia/vetorizando-temporal-em-c/README.md)
       * [Header](tarefas-senai/publish-your-docs/consciencia/vetorizando-temporal-em-c/header/README.md)
         * [Trecho do Código Cocumentado](tarefas-senai/publish-your-docs/consciencia/vetorizando-temporal-em-c/header/trecho-do-codigo-cocumentado.md)
+      * [Simulated Quantum Mechanics](tarefas-senai/publish-your-docs/consciencia/vetorizando-temporal-em-c/simulated-quantum-mechanics.md)
     * [Prototipos](tarefas-senai/publish-your-docs/consciencia/prototipos/README.md)
       * [Poweshell](tarefas-senai/publish-your-docs/consciencia/prototipos/poweshell.md)
       * [C](tarefas-senai/publish-your-docs/consciencia/prototipos/c.md)
