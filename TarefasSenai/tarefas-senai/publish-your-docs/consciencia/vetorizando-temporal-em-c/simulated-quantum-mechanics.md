@@ -6,7 +6,9 @@ description: >-
 
 # Simulated Quantum Mechanics
 
-When I designed the **SystemSnapshot**, the goal was to simulate a **quantum measurement process**. Every time this struct is populated, it forces a **quantum collapse** where all those floating probabilities solidify into discrete, measurable states. Imagine the system as a dice rolling in infinite dimensions. Each snapshot is like catching that dice mid-air, freezing it, and saying, "Alright, this is the reality now."
+* The **SystemSnapshot** simulates a quantum measurement, where each struct instantiation collapses superposition into a discrete state. It’s like catching a multidimensional dice mid-air, locking in reality from infinite possibilities.
+* Odd states represent **superposition**, where time is fluid and potential is boundless.&#x20;
+* Even states mark **quantum collapse**, where time solidifies and the system commits to a definitive reality. The circular buffer mirrors **samsara**, perpetually cycling through rebirths of data, balancing between chaos (odd) and order (even) in a quest for computational nirvana.
 
 The variables like `cpu_freq`, `cpu_temp`, `mem_usage`, and `power` aren't just hardware metrics—they're **quantum states** of the system. The CPU frequency might be in a superposition of different values until the measurement is made. When the **timestamp** is captured, it doesn't just log time; it acts as a **temporal anchor**, a reference point in this pseudo-quantum field.
 
