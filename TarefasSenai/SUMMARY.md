@@ -43,6 +43,7 @@
           * [1.8 Proactive Resource Management: Predictive vs. Reactive States](tarefas-senai/publish-your-docs/consciencia/vetorizando-temporal-em-c/systemsnapshot/1.-quantum-collapse-and-discrete-states/1.8-proactive-resource-management-predictive-vs.-reactive-states.md)
           * [1.9 Integrating Temporal Lattice with Machine Learning](tarefas-senai/publish-your-docs/consciencia/vetorizando-temporal-em-c/systemsnapshot/1.-quantum-collapse-and-discrete-states/1.9-integrating-temporal-lattice-with-machine-learning.md)
           * [\* Mathematical Prediction and Computational Economy](tarefas-senai/publish-your-docs/consciencia/vetorizando-temporal-em-c/systemsnapshot/1.-quantum-collapse-and-discrete-states/mathematical-prediction-and-computational-economy.md)
+          * [Entropy 1.10](tarefas-senai/publish-your-docs/consciencia/vetorizando-temporal-em-c/systemsnapshot/1.-quantum-collapse-and-discrete-states/entropy-1.10.md)
         * [Trecho do Código Documentado](tarefas-senai/publish-your-docs/consciencia/vetorizando-temporal-em-c/systemsnapshot/trecho-do-codigo-documentado.md)
     * [Prototipos](tarefas-senai/publish-your-docs/consciencia/prototipos/README.md)
       * [Poweshell](tarefas-senai/publish-your-docs/consciencia/prototipos/poweshell.md)
