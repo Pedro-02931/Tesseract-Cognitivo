@@ -12,7 +12,7 @@ Optei por uma função personalizada chamada `Criar-Pastas`, onde utilizei **has
 
 Bom, é basicamente uma matriz de 3 dimensões com heuristicas opcionais, segue a imagem:
 
-<figure><img src="../../../../../.gitbook/assets/image.png" alt=""><figcaption><p>Estrutura é um grafo DAG</p></figcaption></figure>
+<figure><img src="../../../../../../.gitbook/assets/image.png" alt=""><figcaption><p>Estrutura é um grafo DAG</p></figcaption></figure>
 
 ***
 
