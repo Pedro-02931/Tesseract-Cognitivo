@@ -30,6 +30,7 @@
       * [2 Configurações](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm/criando-virtual-box/2-configuracoes/README.md)
         * [Estrutura de Diretórios](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm/criando-virtual-box/2-configuracoes/estrutura-de-diretorios.md)
         * [Criando usuários locais](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm/criando-virtual-box/2-configuracoes/criando-usuarios-locais.md)
+        * [Configurando permissões](tarefas-senai/quickstart/configurando-windows-pro-em-maquinas-vm/criando-virtual-box/2-configuracoes/configurando-permissoes.md)
 * [Otimização](tarefas-senai/otimizacao.md)
 * [Quantização](tarefas-senai/publish-your-docs.md)
   * [Consciencia](tarefas-senai/publish-your-docs/consciencia/README.md)
