@@ -56,11 +56,11 @@
       * [C](tarefas-senai/publish-your-docs/consciencia/prototipos/c.md)
 * [Page 1](tarefas-senai/page-1.md)
 
-## Basics
+## Features
 
-* [Editor](basics/editor.md)
-* [Markdown](basics/markdown.md)
-* [Images & media](basics/images-and-media.md)
-* [Interactive blocks](basics/interactive-blocks.md)
-* [OpenAPI](basics/openapi.md)
-* [Integrations](basics/integrations.md)
+* [Metacognição](features/editor.md)
+* [Markdown](features/markdown.md)
+* [Images & media](features/images-and-media.md)
+* [Interactive blocks](features/interactive-blocks.md)
+* [OpenAPI](features/openapi.md)
+* [Integrations](features/integrations.md)

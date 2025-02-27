@@ -1,5 +1,11 @@
 # Criando usuários locais
 
+{% embed url="https://drive.google.com/file/d/1d9rwWNyE7PTzNqAkcWJUNy4kisVQRUvp/view?usp=sharing" %}
+Criando Usuarios e Grupos
+{% endembed %}
+
+
+
 Bom, aqui eu basicamente segui o aamesmo principio de multidimensionalidade por hashtable~~(é o melhor que se dá com esse notebook capenga).~~ então vou fazer a logica de forma resumida.
 
 ***
