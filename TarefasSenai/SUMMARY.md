@@ -66,6 +66,8 @@
       * [C](tarefas-senai/publish-your-docs/colapsos/prototipos/c/README.md)
         * [Sistema centauro por aprendizado](tarefas-senai/publish-your-docs/colapsos/prototipos/c/sistema-centauro-por-aprendizado/README.md)
           * [Script](tarefas-senai/publish-your-docs/colapsos/prototipos/c/sistema-centauro-por-aprendizado/script.md)
+        * [Simulação termodinamica](tarefas-senai/publish-your-docs/colapsos/prototipos/c/simulacao-termodinamica/README.md)
+          * [Script](tarefas-senai/publish-your-docs/colapsos/prototipos/c/simulacao-termodinamica/script.md)
 * [Page 1](tarefas-senai/page-1.md)
 
 ## Features

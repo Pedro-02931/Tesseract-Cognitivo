@@ -1,17 +1,6 @@
-# C
-
-
-
-{% code overflow="wrap" %}
-```c
-```
-{% endcode %}
-
-```mermaid
-```
+# Simulação termodinamica
 
 ````mermaid
-```mermaid
 flowchart LR
     subgraph YinYang[Diagrama de Classes e Fluxo Quântico]
         
@@ -103,3 +92,4 @@ flowchart LR
 
 ```
 ````
+
