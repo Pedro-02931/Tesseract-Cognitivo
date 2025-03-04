@@ -63,7 +63,9 @@
         * [Trecho do Código Documentado](tarefas-senai/publish-your-docs/colapsos/scripts-em-c/systemsnapshot/trecho-do-codigo-documentado.md)
     * [Prototipos](tarefas-senai/publish-your-docs/colapsos/prototipos/README.md)
       * [Poweshell](tarefas-senai/publish-your-docs/colapsos/prototipos/poweshell.md)
-      * [C](tarefas-senai/publish-your-docs/colapsos/prototipos/c.md)
+      * [C](tarefas-senai/publish-your-docs/colapsos/prototipos/c/README.md)
+        * [Sistema centauro por aprendizado](tarefas-senai/publish-your-docs/colapsos/prototipos/c/sistema-centauro-por-aprendizado/README.md)
+          * [Script](tarefas-senai/publish-your-docs/colapsos/prototipos/c/sistema-centauro-por-aprendizado/script.md)
 * [Page 1](tarefas-senai/page-1.md)
 
 ## Features
