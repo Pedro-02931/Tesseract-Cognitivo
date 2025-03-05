@@ -1,8 +1,9 @@
 ---
 icon: arrows-cross
+hidden: true
 ---
 
-# Aprendizado
+# Quantização
 
 mano, é a síntese brutal de técnicas avançadas para calcular a performance de hardware utilizando modelos matemáticos que nem a elite da NSA, CERN, Mossad e a galera da elite asítica aprova. Cada função é implementada com o rigor de um experimento de laboratório nuclear, com comentários que destrincham cada linha num nível pós-doutorado, sem frescura espiritual, mas com precisão matemática de responsa.
 
